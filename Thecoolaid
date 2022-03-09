@@ -27,13 +27,16 @@ Tab2:Button("(R6 ONLY) Copy Bullet Hats", function()
 	setclipboard("63690008")
 	set()
 end)
+
 Tab2:Line()
 Tab2:Toggle("Enable Fling", function(Bool)
 	_G.Settings.Fling = Bool
 end)
+
 Tab2:Toggle("Enable Bullet", function(Bool)
 	_G.Settings.Bullet = Bool
 end)
+
 Tab2:Toggle("CFrame Method (R6 Only)", function(Bool)
 	_G.Settings.CFrameMethod = Bool
 end)
@@ -141,6 +144,7 @@ Tab2:Button("Reanimate", function()
 			setsimulationradius(1000,1000)
 		end
 	end
+
 	Netless = RunService.Heartbeat:Connect(NetlessF)
 
 	UIS.JumpRequest:Connect(function()
@@ -191,6 +195,7 @@ Tab2:Button("Reanimate", function()
 		Align(Hat,Reanimate["Right Arm"],Vector3.new(0,0,0),Vector3.new(90,0,0))
 		Character["Right Arm"].Name = "Bullet"
 	end
+
 	Reanimate.Animate:Destroy()
 	local Animate = Character.Animate:Clone()
 	Animate.Parent = Reanimate
@@ -226,6 +231,7 @@ Tab2:Button("Reanimate", function()
 		Humanoid:ChangeState("Physics")
 		end
 	end
+
 	Humanoid.Died:Connect(function()
 	Dead = true
 	pcall(function()
@@ -248,27 +254,35 @@ end)
 function ezloadstring(a)
 	loadstring(game:HttpGet("https://raw.githubusercontent.com/Gelatek/ProjectTerm/main/scripts/".. a.. ".lua"))()
 end
+
 Tab3:Button("Krystal Dance V1", function()
 	ezloadstring("krystalv1")
 end)
+
 Tab3:Button("Krystal Dance V2", function()
 	ezloadstring("krystalv2")
 end)
+
 Tab3:Button("Gale Fighter", function()
 	ezloadstring("gale")
 end)
+
 Tab3:Button("Sonic", function()
 	ezloadstring("sonic")
 end)
+
 Tab3:Button("Ender", function()
 	ezloadstring("ender")
 end)
+
 Tab3:Button("Master Of Elements", function()
 	ezloadstring("masterofelements")
 end)
+
 Tab3:Button("Xester", function()
 	ezloadstring("xester")
 end)
+
 Tab3:Button("Funky Animations", function()
 	ezloadstring("funkymovements")
 end)
@@ -277,24 +291,31 @@ end)
 Tab4:Button("Void Scythe", function()
 	ezloadstring("voidscythe")
 end)
+
 Tab4:Button("The Hotline", function()
 	ezloadstring("thehotline")
 end)
+
 Tab4:Button("Chips", function()
 	ezloadstring("chips")
 end)
+
 Tab4:Button("Neptunian V", function()
 	ezloadstring("neptunian")
 end)
+
 Tab4:Button("Banzai Bazooka", function()
 	ezloadstring("banzaibazooka")
 end)
+
 Tab4:Button("Unithereal Glitcher Edit", function()
 	ezloadstring("unitherealglitcheredit")
 end)
+
 Tab4:Button("Sword Hoverboard", function()
 	ezloadstring("hoverboard")
 end)
+
 Tab4:Button("Yellow Lightning Blade", function()
 	ezloadstring("lightningblade")
 end)
@@ -302,12 +323,15 @@ end)
 Tab4:Button("Carnage", function()
 	ezloadstring("carnage")
 end)
+
 Tab4:Button("Regunner", function()
 	ezloadstring("regunner")
 end)
+
 Tab4:Button("Mysterious Block", function()
 	ezloadstring("mysteriousblock")
 end)
+
 Tab4:Button("Dual Swords", function()
 	ezloadstring("dualswords")
 end)
@@ -317,46 +341,57 @@ Tab5:Button("Copy Void Scythe Hats", function()
 	setclipboard("5414429551")
 	set()
 end)
+
 Tab5:Button("Copy Chips Hats", function()
 	setclipboard("4964938812")
 	set()
 end)
+
 Tab5:Button("Copy Hoverboard Hats", function()
 	setclipboard("4458601937")
 	set()
 end)
+
 Tab5:Button("Copy Neptunian V Hats", function()
 	setclipboard("4458601937")
 	set()
 end)
+
 Tab5:Button("Copy Yellow Lightning Blade Hats", function()
 	setclipboard("4458601937")
 	set()
 end)
+
 Tab5:Button("Copy Unithereal Glitcher Edit Hats", function()
 	setclipboard("4315489767,4794315940,4506945409,4458601937,4820152700,4524991457,4773932088")
 	set()
 end)
+
 Tab5:Button("Copy Banzai Bazooka Hats", function()
 	setclipboard("4466171123")
 	set()
 end)
+
 Tab5:Button("Copy The Hotline Hats", function()
 	setclipboard("6497604093")
 	set()
 end)
+
 Tab5:Button("Copy Re-Gunner Hats", function()
 	setclipboard("6497604093")
 	set()
 end)
+
 Tab5:Button("Copy Mysterious Block Hats", function()
 	setclipboard("2493718915")
 	set()
 end)
+
 Tab5:Button("Copy Carnage Hats", function()
 	setclipboard("5410674378")
 	set()
 end)
+
 Tab5:Button("Copy Dual Swords Hats", function()
 	setclipboard("4820152700,4524991457")
 	set()
