@@ -22,6 +22,8 @@ Tab1:Label("Current Version: 1.4.2")
 Tab1:Label("Created By: Thecoolaid")
 Tab1:Label("Special Thanks: Rise!")
 
+end)
+
 Tab2:Label("Please don't touch toggles after reanimate.")
 Tab2:Button("(R6 ONLY) Copy Bullet Hats", function()
 	setclipboard("63690008")
