@@ -359,7 +359,7 @@ Tab5:Button("Copy Dual Swords Hats", function()
 	set()
 end)
 for i = 0,60 do
-	for _,v in pairs(game.CoreGui.ProjectTerminate.Main.Containers:GetChildren()) do
+	for _,v in pairs(game.CoreGui.ProjectSunbeam.Main.Containers:GetChildren()) do
 		v.Visible = false
 	end
 end
