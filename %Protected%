@@ -37,7 +37,6 @@ end)
 Tab2:Toggle("CFrame Method (R6 Only)", function(Bool)
 	_G.Settings.CFrameMethod = Bool
 end)
-
 Tab2:Line()
 Tab2:Button("Reanimate", function()
 	if game.Players.LocalPlayer.Character:FindFirstChild("Rig") then
@@ -273,7 +272,6 @@ end)
 Tab3:Button("Funky Animations", function()
 	ezloadstring("funkymovements")
 end)
-
 Tab4:Button("Void Scythe", function()
 	ezloadstring("voidscythe")
 end)
@@ -309,7 +307,6 @@ end)
 Tab4:Button("Dual Swords", function()
 	ezloadstring("dualswords")
 end)
-
 Tab5:Button("Copy Void Scythe Hats", function()
 	setclipboard("5414429551")
 	set()
