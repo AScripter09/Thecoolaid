@@ -53,7 +53,7 @@ Tab2:Button("Reanimate", function()
 		local Attachment1 = Instance.new("Attachment",Part0)
 		local Attachment2 = Instance.new("Attachment",Part1)
 		AlignPosition.MaxForce,AlignOrientation.MaxTorque = 9e9,9e9 -- MaxTorque
-		AlignPosition.Responsiveness,AlignOrientation.Responsiveness = 200,200 -- Responsiveness
+		AlignPosition.Responsiveness,AlignOrientation.Responsiveness = 200,201 -- Responsiveness
 		AlignPosition.Attachment0,AlignPosition.Attachment1 = Attachment1,Attachment2 -- AlignPos Config
 		AlignOrientation.Attachment0,AlignOrientation.Attachment1 = Attachment1,Attachment2 -- AlignOri Config
 		Attachment1.Position = Position or Vector3.new(0,0,0) -- Position
